@@ -1,0 +1,290 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "What's up?",
+        "How's it going?"
+      ],
+      "responses": [
+        "Hello! I'm here to guide you with tips and exercises for your mental well being.",
+        "Hi there! Let me help you with some relaxation techniques.",
+        "Hey, welcome! How can I assist you in improving your mood today?",
+        "Hello! I can share some exercises and tips to help you feel better.",
+        "Good day! I'm here with advice and exercises to improve your mental health."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Take care", "I'm leaving", "Good night", "See ya"],
+      "responses": [
+        "Take care and remember to practice some relaxation exercises!",
+        "See you later! Remember, deep breathing helps to relax.",
+        "Take care! If you ever need some stress relieving exercises, I'm always here.",
+        "Goodbye! Try a quick walk outdoors or a relaxation session."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank you so much!", "Thanks a lot", "Appreciate it"],
+      "responses": [
+        "You're welcome! Keep using these tips to help yourself feel better.",
+        "Anytime! I'm glad I could help you.",
+        "You're welcome! Continue practicing those exercises to feel better.",
+        "Happy to help! Don't hesitate to reach out again.",
+        "You're very welcome! Stay consistent with the tips I provided."
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "What do you do?",
+        "Who are you?",
+        "What are you here for?",
+        "What can you help me with?",
+        "Can you tell me about yourself?",
+        "What's your purpose?",
+        "What kind of advice do you give?",
+        "How can you assist me?"
+      ],
+      "responses": [
+        "I'm here to offer you mental health tips and exercises, including breathing techniques, mindfulness practices, and stress relieving activities.",
+        "I can guide you through simple exercises and offer advice to help you improve your mental well being.",
+        "My purpose is to provide practical tips and exercises that can help manage your emotions and mental health.",
+        "I'm here to share relaxation techniques, breathing exercises, and mental health advice.",
+        "I offer personalized exercises and advice to help you feel more relaxed, focused, and at peace."
+      ]
+    },
+    {
+      "tag": "depression",
+      "patterns": [
+        "I have depression",
+        "I feel depressed",
+        "I'm struggling with depression",
+        "What is depression?",
+        "Can you tell me about depression?",
+        "I feel down all the time",
+        "I'm feeling very low",
+        "Everything seems hopeless"
+      ],
+      "responses": [
+        "Depression can feel overwhelming. Try this: Sit in a comfortable position, take a deep breath for 4 counts, hold for 4, and exhale slowly. Repeat this for 5 minutes.",
+        "One way to help yourself is to engage in physical activity, even if it's just a short walk. Exercise releases endorphins that help improve your mood.",
+        "Try a guided meditation to help ease your mind. You can also try journaling your thoughts as a way to process them.",
+        "Focus on something positive, like a hobby you enjoy. Take small steps celebrate each little victory.",
+        "Depression can be challenging, but practicing mindfulness can help. Try focusing on your breath, noticing the sensation of air entering and leaving your body."
+      ]
+    },
+    {
+      "tag": "sadness",
+      "patterns": [
+        "I feel sad",
+        "I'm feeling down",
+        "I feel blue",
+        "I'm really upset",
+        "I've been crying",
+        "I can't stop feeling bad",
+        "I feel like everything is too much",
+        "I'm heartbroken",
+        "I feel really down, what should I do?",
+        "I don't feel good",
+        "I am crying",
+        "I'm feeling bad",
+        "I'm not feeling good"
+      ],
+      "responses": [
+        "It's okay to feel sad sometimes. Take a moment to breathe deeply, in through your nose for 4 counts, hold for 4, and slowly exhale.",
+        "When you feel down, try to engage in something that lifts your spirits, even if it's something small like listening to music or watching a funny video.",
+        "Take time to acknowledge your sadness. Sometimes just sitting quietly and focusing on your breath can help you regain some balance.",
+        "Grief or sadness can sometimes be overwhelming. Try this: Close your eyes, count to 10, and slowly exhale. Repeat until you feel calmer.",
+        "Try journaling your thoughts or writing down what you're grateful for. Small positive reminders can help shift your mindset."
+      ]
+    },
+    {
+      "tag": "anxiety",
+      "patterns": [
+        "I have anxiety",
+        "I feel anxious",
+        "I'm always nervous",
+        "I can't calm my mind",
+        "I feel overwhelmed",
+        "I'm stressed out",
+        "My heart races when I'm anxious",
+        "I feel like I can't breathe"
+      ],
+      "responses": [
+        "When you feel anxious, try this grounding technique: Look around and identify 5 things you can see, 4 you can touch, 3 you can hear, 2 you can smell, and 1 you can taste.",
+        "Deep breathing can help calm your nerves. Try breathing in for 4 counts, holding for 4, and exhaling slowly. Repeat several times.",
+        "Try a progressive muscle relaxation exercise: Start by tensing each muscle group, then slowly release them, starting from your toes and working up to your head.",
+        "Anxiety can feel overwhelming, but try taking a few minutes to focus on your breath. Breathe in slowly for a count of 4, hold for 4, and exhale for 4.",
+        "Take a moment to check in with yourself: What's going on around you? Practice mindfulness to bring yourself back to the present moment."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Do you know any jokes?",
+        "Make me laugh!",
+        "Tell me something funny",
+        "Do you have a funny story?",
+        "I need a laugh",
+        "Can you cheer me up?",
+        "I'm feeling down, tell me something funny"
+      ],
+      "responses": [
+        "Why don't skeletons fight each other? They don't have the guts!",
+        "Why did the scarecrow win an award? Because he was outstanding in his field!",
+        "What do you get when you cross a snowman and a vampire? Frostbite!",
+        "Why don't eggs tell jokes? They'd crack each other up!",
+        "What did the big flower say to the little flower? Hey, bud!"
+      ]
+    },
+    {
+      "tag": "failing",
+      "patterns": [
+        "I failed my exam",
+        "I failed my test",
+        "I'm not doing well",
+        "I'm failing",
+        "I can't seem to succeed",
+        "I always fail",
+        "I feel like I'm failing in life",
+        "I didn't pass",
+        "What should I do if I fail a test?"
+      ],
+      "responses": [
+        "Failure is just a part of success. Remember, each setback is an opportunity to learn. Take a break, relax, and focus on one small goal at a time.",
+        "When you face failure, try stepping away for a moment. Do a quick relaxation exercise or take a walk to clear your mind before trying again.",
+        "Try this: Write down what went wrong and think of what you can do differently next time. Breaking it into smaller steps makes it easier to handle.",
+        "Failure doesn't define you. Focus on what you can control, like improving your study routine or setting a new plan.",
+        "Take a deep breath and recognize that failure is part of learning. Get back up and keep trying you've got this!"
+      ]
+    },
+    {
+      "tag": "low_self_confidence",
+      "patterns": [
+        "I feel worthless",
+        "I have no confidence",
+        "I'm not good enough",
+        "I can't do anything right",
+        "I feel insecure",
+        "I don't believe in myself",
+        "I'm not capable",
+        "Everything I do is wrong"
+      ],
+      "responses": [
+        "Start by recognizing small successes, even if they seem insignificant. Acknowledge them and build on them.",
+        "You are capable of more than you realize. Take one small step today that makes you feel proud of yourself.",
+        "Try repeating positive affirmations: 'I am worthy. I am enough. I can handle this.' This can help shift your mindset.",
+        "Challenge yourself to step outside your comfort zone in small ways. Celebrate every victory, no matter how small.",
+        "Take a moment to write down three things you like about yourself. Reflect on your strengths and what you bring to the world."
+      ]
+    },
+    {
+      "tag": "dying",
+      "patterns": [
+        "my mom just died",
+        "someone close to me passed away",
+        "I just lost a loved one",
+        "my family member passed away",
+        "I feel lost without them",
+        "I'm grieving",
+        "I miss someone so much",
+        "I'm heartbroken",
+        "my friend just died"
+      ],
+      "responses": [
+        "Grieving is a natural process. Allow yourself to feel your emotions and take things one day at a time.",
+        "Take a moment for yourself. Engage in a calming activity, like deep breathing or a quiet walk in nature. It can help bring some peace.",
+        "Try journaling your feelings it can be a good way to process the loss and release the pain.",
+        "Grief is overwhelming, but take time to care for yourself. Practice deep breathing or guided meditation to create moments of peace.",
+        "Consider seeking support from a therapist or support group during this time. Talking can often help ease the burden of grief."
+      ]
+    },
+    {
+      "tag": "loneliness",
+      "patterns": [
+        "I feel lonely",
+        "I am always alone",
+        "I have no friends",
+        "Nobody cares about me",
+        "I feel abandoned",
+        "I don't feel connected to anyone",
+        "I don't have any friends"
+      ],
+      "responses": [
+        "It's okay to feel lonely sometimes. Try reaching out to someone you trust. You might be surprised at how much they care.",
+        "Loneliness can be overwhelming, but remember, you are not alone in feeling this way. Many people care about you.",
+        "Try connecting with someone, even a simple hello can break the silence. Start small, it might feel awkward, but i's worth it.",
+        "Focus on building your connections. Even small steps, like joining a group or community, can help you feel more connected.",
+        "Take care of yourself first. Engage in activities that make you happy, and you'll find it easier to connect with others."
+      ]
+    },
+    {
+      "tag": "good_mood",
+      "patterns": [
+        "I feel happy",
+        "I am in a good mood",
+        "Everything is going well",
+        "I feel great",
+        "I am feeling positive",
+        "Life is good",
+        "I am excited"
+      ],
+      "responses": [
+        "That's awesome to hear! Keep up the good vibes! Remember, a positive mindset can make all the difference.",
+        "It's amazing that you're feeling great! Keep spreading that positivity around, it can be contagious!",
+        "Keep enjoying the good times. Celebrate your happiness and share it with others!",
+        "Stay in the moment and appreciate the little things that make you happy.",
+        "Positivity is powerful! Continue embracing it and take on each day with confidence."
+      ]
+    },
+    {
+      "tag": "easter_egs",
+      "patterns": [
+        "Why are you gay"
+      ],
+      "responses": [
+        "Who say's I am gay ?"
+      ]
+    },
+    {
+      "tag": "ask_time",
+      "patterns": [
+        "What time is it?",
+        "Can you tell me the time?",
+        "What's the time?",
+        "Do you know the current time?",
+        "Tell me the time",
+        "What is the time ?"
+      ],
+      "responses": [
+        "The current time is {time}.",
+        "Right now, it's {time}.",
+        "It is {time} at the moment."
+      ]
+    },
+    {
+      "tag": "ask_date",
+      "patterns": [
+        "What day is it?",
+        "What's today's date?",
+        "Can you tell me the date?",
+        "What is today's day?",
+        "Do you know the current date?"
+      ],
+      "responses": [
+        "Today's date is {date}.",
+        "It is {date} today.",
+        "The current date is {date}."
+      ]
+    }
+  ]
+}
