@@ -1,0 +1,2 @@
+# HappyMind
+Maturitný projekt
