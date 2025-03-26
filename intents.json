@@ -247,15 +247,6 @@
       ]
     },
     {
-      "tag": "easter_egs",
-      "patterns": [
-        "Why are you gay"
-      ],
-      "responses": [
-        "Who say's I am gay ?"
-      ]
-    },
-    {
       "tag": "ask_time",
       "patterns": [
         "What time is it?",
