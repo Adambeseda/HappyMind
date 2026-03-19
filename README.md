@@ -21,4 +21,4 @@ This application was developed as my **secondary school graduation project** wit
 
 📄 Documentation (Slovak)
 For a deep dive into the theory, architecture, and creation process, please refer to the attached documentation (written in Slovak):
-rp_adam_beseda_dokumentacia.pdf
+`rp_adam_beseda_dokumentacia.pdf`
