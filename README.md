@@ -19,6 +19,4 @@ This application was developed as my **secondary school graduation project** wit
 * **Modern GUI:** A clean, user-friendly desktop interface built with CustomTkinter.
 * **Trainable Dataset:** Easy to update and retrain using the `intents.json` file and the `train.py` script.
 
-> ## 📄 Documentation
-For a deep dive into the theory, architecture, and creation process, please refer to the attached documentation (written in Slovak):
-`rp_adam_beseda_dokumentacia.pdf`
+> 📄 Documentation: For a deep dive into the theory, architecture, and creation process, please refer to the attached documentation (written in Slovak): `rp_adam_beseda_dokumentacia.pdf`
