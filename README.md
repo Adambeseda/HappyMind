@@ -1,6 +1,6 @@
 # HappyMind – AI Mental Health Chatbot 🧠💬
 
-HappyMind is a simple, AI-powered desktop chatbot designed to provide basic mental health support, relaxation tips, and daily encouragement. 
+HappyMind is simple, AI-powered desktop chatbot designed to provide basic mental health support, relaxation tips, and daily encouragement. 
 
 This application was developed as my **secondary school graduation project** with the goal of understanding the fundamentals of Machine Learning (ML) and Natural Language Processing (NLP). 
 
